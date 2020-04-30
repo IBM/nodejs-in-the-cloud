@@ -3,9 +3,9 @@
 Welcome :wave: to the Node.js in the Cloud workshop at THINK 2020!
 
 The workshop will be in three parts:
-  1. [Extending a simple Express.js application to leverage cloud capabilities](#Part-1:-Extending-an-Express.js-application-to-leverage-Cloud-Capabilities)
-  2. [Demonstrate tooling to help you develop all of your cloud-native applications from a consistent base](#Part-2:-Building-Cloud-Native-Apps-with-Appsody)
-  3. [Introducing Kabanero](#Part-3:-Introducing-Kabanero)
+  1. [Extending a simple Express.js application to leverage cloud capabilities](#part-1-extending-an-expressjs-application-to-leverage-cloud-capabilities)
+  2. [Demonstrate tooling to help you develop all of your cloud-native applications from a consistent base](#part-2-building-cloud-native-apps-with-appsody)
+  3. [Introducing Kabanero](#part-3-introducing-kabanero)
 
 ## Part 1: Extending an Express.js application to leverage Cloud Capabilities
 
@@ -26,7 +26,7 @@ The application you'll use is a simple Express.js app built using the Express Ge
 
 ### Prerequisites
 
-**Note**: If you're using a workshop VM, then all of these prerequisites should all be preinstalled. Use `microk8s` in the following steps, expanding the relevant details sections where necessary. You can skip straight to [Part 1](#1.-Create-your-Express.js-Application).
+**Note**: If you're using a workshop VM, then all of these prerequisites should all be preinstalled. Use `microk8s` in the following steps, expanding the relevant details sections where necessary. You can skip straight to [Step 1](#1-create-your-expressjs-application).
 
 Before getting started, make sure you have the following prerequisites installed on your system.
 
