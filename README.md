@@ -2,6 +2,8 @@
 
 Welcome :wave: to the Node.js in the Cloud workshop at THINK 2020!
 
+For those doing the lab self-paced the password to login is `engageibm`
+
 The workshop will be in three parts:
   1. [Extending a simple Express.js application to leverage cloud capabilities](#part-1-extending-an-expressjs-application-to-leverage-cloud-capabilities)
   2. [Demonstrate tooling to help you develop all of your cloud-native applications from a consistent base](#part-2-building-cloud-native-apps-with-appsody)
