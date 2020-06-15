@@ -1,8 +1,6 @@
 # Node.js in the Cloud
 
-Welcome :wave: to the Node.js in the Cloud workshop at THINK 2020!
-
-For those doing the lab self-paced the password to login is `engageibm`
+Welcome :wave: to the Node.js in the Cloud workshop at OpenJS World!
 
 The workshop will be in three parts:
   1. [Extending a simple Express.js application to leverage cloud capabilities](#part-1-extending-an-expressjs-application-to-leverage-cloud-capabilities)
@@ -28,8 +26,6 @@ The application you'll use is a simple Express.js app built using the Express Ge
 
 ### Prerequisites
 
-**Note**: If you're using a workshop VM, then all of these prerequisites should all be preinstalled. Use `microk8s` in the following steps, expanding the relevant details sections where necessary. You can skip straight to [Step 1](#1-create-your-expressjs-application).
-
 Before getting started, make sure you have the following prerequisites installed on your system.
 
 1. [Node.js 10 or later](https://nodejs.org/en/download/) or using [nvm](https://github.com/nvm-sh/nvm#installation-and-update)
@@ -40,7 +36,7 @@ Before getting started, make sure you have the following prerequisites installed
     - [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
     - [microk8s](https://microk8s.io/#quick-start)
 4. Helm v3 - https://helm.sh/docs/intro/install/
-   - **Note**: This workshop tested with v3.1.2
+   - **Note**: This workshop tested with Helm v3.1.2
 
 ### Setting up
 
@@ -624,15 +620,6 @@ Before getting started, you’ll need to install the Appsody CLI.
 
 1. Follow the [Installing Appsody](https://appsody.dev/docs/getting-started/installation#installing-appsody) guide to install the CLI for your platform.
 
-If you're using the workshop VM you can use the following commands to install the Appsody CLI using `apt`:
-
-```bash
-cd /tmp
-wget https://github.com/appsody/appsody/releases/download/0.6.1/appsody_0.6.1_amd64.deb
-sudo apt install -f /tmp/appsody_0.6.1_amd64.deb
-cd
-```
-
 Verify that Appsody is installed by typing `appsody version`.
 
 Next ensure you are in the default Kubernetes namespace:
@@ -858,8 +845,8 @@ module.exports = (/*options*/) => {
 
   app.get('/', (req, res) => {
     // Use req.log (a `pino` instance) to log JSON:
-    req.log.info({message: 'Hello from THINK2020!'});
-    res.send('Hello from THINK2020!');
+    req.log.info({message: 'Hello from OpenJS World!'});
+    res.send('Hello from OpenJS World!');
   });
 
   return app;
@@ -870,7 +857,7 @@ Save the file.
 
 6. Connect to the application in your browser at http://localhost:3000.
 
-This will display: `Hello from THINK 2020!`
+This will display: `Hello from OpenJS World!`
 
 7. Finally, stop the continuous development environment by either:
   - Using `Ctrl-C` in the terminal window where `appsody run` is executing.
