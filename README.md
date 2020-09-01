@@ -1,6 +1,6 @@
 # Node.js in the Cloud
 
-Welcome :wave: to the Node.js in the Cloud workshop at OpenJS World!
+Welcome :wave: to the Node.js in the Cloud workshop!
 
 The workshop will be in three parts:
   1. [Extending a simple Express.js application to leverage cloud capabilities](#part-1-extending-an-expressjs-application-to-leverage-cloud-capabilities)
